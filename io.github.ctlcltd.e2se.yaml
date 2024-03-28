@@ -17,10 +17,11 @@ modules:
     buildsystem: cmake-ninja
     config-opts:
       - -DCMAKE_BUILD_TYPE=Release
+      - -DRELEASE_MEDIUM=flathub
       - -DWITHOUT_CLI=ON
     subdir: src
     sources:
       - type: git
         url: https://github.com/ctlcltd/e2-sat-editor.git
-        tag: v1.2.0
+        #tag: v1.2.0
         commit: cf5518668691a04f841daf99812dd2301148f979
